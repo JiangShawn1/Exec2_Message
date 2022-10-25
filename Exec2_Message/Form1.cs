@@ -41,7 +41,7 @@ namespace Exec2_Message
             }
             else
             {
-                if (hour <= 18 && hour >= 12)
+                if (hour < 18 && hour > 12)
                 {
                     Hi = "午安";
                 }
